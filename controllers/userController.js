@@ -105,7 +105,7 @@ const forgotPassword=async(req,res,next)=>{
   const resetToken = user.getPasswordResetToken();
   await user.save({ validateBeforeSave: false }); // BECAUSE WOH WALA METHOD ME HUM RESETTOKEN SAVE KR RAHE HE DOCUMEMT ME SO WE ALSO HAVE TO SAVE
 
-  const resetPasswordUrl = `${req.protocol}://localhost:3000/password/reset/${resetToken}`;
+  const resetPasswordUrl = `https://full-stack-mern-ecommerce.onrender.com/password/reset/${resetToken}`;
 
   const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
 
