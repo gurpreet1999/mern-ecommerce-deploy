@@ -9,12 +9,12 @@ const sendMail=async(options)=>{
         secure: true,
         service:"gmail",
         auth:{
-            user:MAILER_USER,
-            pass:MAILER_PASSWORD
+            user:process.env.MAILER_USER,
+            pass:process.env.MAILER_PASSWORD
         }
     })
     const mailOptions={
-        from:MAILER_USER,
+        from:process.env.MAILER_USER,
         to: options.email,
         subject: options.subject,
         text: options.message
