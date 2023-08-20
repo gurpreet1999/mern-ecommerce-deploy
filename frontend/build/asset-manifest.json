@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc20ac2a.css",
+    "main.js": "/static/js/main.481dbb61.js",
+    "static/media/header.png": "/static/media/header.5dbe8f599e57290c32fa.png",
+    "static/media/cover.jfif": "/static/media/cover.e2edeab17643ab2951c0.jfif",
+    "static/media/dark-logo.png": "/static/media/dark-logo.107a83b50ea55a8143dd.png",
+    "static/media/light-logo.png": "/static/media/light-logo.e3caef219bfc90237419.png",
+    "index.html": "/index.html",
+    "main.fc20ac2a.css.map": "/static/css/main.fc20ac2a.css.map",
+    "main.481dbb61.js.map": "/static/js/main.481dbb61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc20ac2a.css",
+    "static/js/main.481dbb61.js"
+  ]
+}
